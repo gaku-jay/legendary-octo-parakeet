@@ -9,9 +9,9 @@ const IntroductionPart = () => {
 
     return (
         <div className={classes.IntroductionPart}>
-            <NameLabel>Hi. I'm Gaku Jinyama</NameLabel>
+            <NameLabel>I'm Gaku Jinyama</NameLabel>
             <Summary>I'm a Japan based system engineer working at an internatinal IT company. 
-                My intrests are in web development, UI/UX design.</Summary>
+                My interests are in web development, UI/UX design.</Summary>
             <SNSLinks />
         </div>
     );
