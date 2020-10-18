@@ -9,10 +9,13 @@ const Home = () => {
 
     return (
         <div className={classes.Home}>
-            <NameLabel>I'm Gaku Jinyama</NameLabel>
-            <Summary>I'm a Japan based system engineer working at an internatinal IT company. 
-                My interests are in web development, UI/UX design.</Summary>
-            <SNSLinks />
+            <div className={classes.Banner}>
+                <NameLabel>I'm Gaku JINYAMA.</NameLabel>
+                <Summary>I'm a Japan based system engineer working at an internatinal IT company. 
+                    My interests are in web development, UI/UX design.</Summary>
+                <hr className={classes.hr} />
+                <SNSLinks />
+            </div>
         </div>
     );
 }
