@@ -1,13 +1,13 @@
 import React from 'react';
 
-class WorkController extends React.Component {
+class WorkBuilder extends React.Component {
     render() {
         return(
             <div>
-                <h1>This is Work</h1>
+                <h2>This is WorkBuilder</h2>
             </div>
         );
     }
 }
 
-export default WorkController;
+export default WorkBuilder;

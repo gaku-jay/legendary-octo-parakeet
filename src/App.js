@@ -3,9 +3,8 @@ import Header from './components/UI/Header/Header';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Resume from './components/Resume/Resume';
-
+import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
-import WorkController from './containers/WorkController/WorkController';
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
       <Home />
       <About />
       <Resume />
-      <WorkController />
+      <Work />
       <Contact />
     </div>
   );
