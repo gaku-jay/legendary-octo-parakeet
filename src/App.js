@@ -1,4 +1,6 @@
 import React from 'react';
+import classes from './App.css';
+
 import Header from './components/UI/Header/Header';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -9,10 +11,10 @@ import Contact from './components/Contact/Contact';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <Header />
       </header>
-      <Home />
+      <Home/>
       <About />
       <Resume />
       <Work />
