@@ -1,10 +1,15 @@
-import Contact from 'Contact';
+import React from 'react';
 import classes from './Contact.module.css';
 
-const Contact = () => {
+import SendMessage from '../../containers/SendMessage/SendMessage';
+import ContactInformation from './ContactInformation/ContactInformation';
+
+const Contact = (props) => {
     return(
         <div>
-                        
+            <h1>This is Contact</h1>
+            <SendMessage />
+            <ContactInformation />            
         </div>
     );
 }

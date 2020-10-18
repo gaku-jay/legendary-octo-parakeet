@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from './components/UI/Header/Header';
-import IntroductionPart from './components/IntroductionPart/IntroductionPart';
+import Home from './components/Home/Home';
 import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 
-import ContactController from './containers/ContactController/ContactController';
+import Contact from './components/Contact/Contact';
 import WorkController from './containers/WorkController/WorkController';
 
 function App() {
@@ -13,11 +13,11 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
-      <IntroductionPart />
+      <Home />
       <About />
       <Resume />
       <WorkController />
-      <ContactController />
+      <Contact />
     </div>
   );
 }

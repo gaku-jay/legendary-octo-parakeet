@@ -6,4 +6,5 @@ ul {
 .Header {
     display: flex;
     justify-content: center;
+    background-image: url(./main.JPG);
 }
