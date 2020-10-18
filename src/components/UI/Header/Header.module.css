@@ -4,7 +4,9 @@ ul {
 }
 
 .Header {
+    width: 100%;
     display: flex;
     justify-content: center;
-    background-image: url(./main.JPG);
+    position: fixed;
+    z-index: 100;
 }
