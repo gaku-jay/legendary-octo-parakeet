@@ -7,7 +7,7 @@ const Work = () => {
 
     return(
         <div className={classes.Work}>
-            <h1>This is Work</h1>
+            <h1>Work</h1>
             <WorkBuilder />
         </div>
     );
