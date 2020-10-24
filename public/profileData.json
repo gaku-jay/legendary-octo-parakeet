@@ -12,19 +12,9 @@
       "resumedownload":"http://timbakerdev.com",
       "social":[
         {
-          "name":"facebook",
-          "url":"http://facebook.com/tim.baker.906",
-          "className":"fa fa-facebook"
-        },
-        {
           "name":"twitter",
           "url":"http://twitter.com",
           "className":"fa fa-twitter"
-        },
-        {
-          "name":"google-plus",
-          "url":"http://googleplus.com/tbakerx",
-          "className":"fa fa-google-plus"
         },
         {
           "name":"linkedin",
@@ -40,11 +30,6 @@
           "name":"github",
           "url":"http://github.com/tbakerx",
           "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://skype.com",
-          "className":"fa fa-skype"
         }
       ]
     },

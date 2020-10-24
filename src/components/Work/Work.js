@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Work.module.css';
-import WorkCard from './WorkCard/WorkCard';
 import Card from '../UI/Card/Card';
 
 
