@@ -6,8 +6,8 @@ import ContactInformation from './ContactInformation/ContactInformation';
 
 const Contact = (props) => {
     return(
-        <div>
-            <h1>This is Contact</h1>
+        <div className={classes.Contact}>
+            <h1>Contact</h1>
             <SendMessage />
             <ContactInformation />            
         </div>

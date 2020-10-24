@@ -1,3 +1,13 @@
 .ContactDetails {
-    
+
+}
+
+.Content {
+    display: flex;
+    flex-direction: row;
+}
+
+.Download {
+    margin-left: 3rem;
+    width: 20rem;
 }
