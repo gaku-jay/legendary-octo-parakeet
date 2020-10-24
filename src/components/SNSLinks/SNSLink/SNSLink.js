@@ -3,29 +3,21 @@ import classes from './SNSLink.module.css';
 
 const SNSLink = (props) => {
 
-    let SNSLink;
+    let snsName;
+    let snsUrl;
+    let snsClassName;
 
-    switch (props.children) {
-        case 'Twitter':
-            SNSLink = <li className={classes.Twitter}>{props.children}</li>;
-            break; 
-
-        case 'Instagram':
-            SNSLink = <li className={classes.Instagram}>{props.children}</li>;
-            break; 
-
-        case 'LinkedIn':
-            SNSLink = <li className={classes.LinkedIn}>{props.children}</li>;
-            break; 
-        case 'Github':
-            SNSLink = <li className={classes.Github}>{props.children}</li>;
-            break; 
+    if (props.data) {
+        console.log('social', props.data)
+        snsName = props.data.name;
+        snsUrl = props.data.url;
+        snsClassName = props.data.className
     }
 
     return(
-        <React.Fragment>
-            {SNSLink}
-        </React.Fragment>
+        <li className={classes.SNSLink}>
+            <a href={snsUrl} className={snsClassName}></a>
+        </li>
     );
     
 }

@@ -3,17 +3,19 @@ import SNSLink from './SNSLink/SNSLink';
 import classes from './SNSLinks.module.css';
 
 
-const SNSLinks = () => {
+const SNSLinks = (props) => {
 
-    const SNS_LINKS = ['Github', 'LinkedIn', 'Instagram', 'Twitter'];
+    let snsLinks;
 
-    let SNSLinks = SNS_LINKS.map(el => (
-    <SNSLink key={el}>{el}</SNSLink>
-    ));
+    if (props.data) {
+        snsLinks = props.data.social.map(el => (
+        <SNSLink data={el} key={el}>{el}</SNSLink>
+        ));
+    }
     
     return(
         <div className={classes.SNSLinks}>
-             <ul>{SNSLinks}</ul>
+             <ul>{snsLinks}</ul>
         </div>
     );
 };

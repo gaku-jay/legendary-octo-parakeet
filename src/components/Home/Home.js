@@ -21,7 +21,7 @@ const Home = (props) => {
                 <NameLabel>I'm {name}.</NameLabel>
                 <Summary>{description}</Summary>
                 <hr className={classes.hr} />
-                <SNSLinks />
+                <SNSLinks data={props.data} />
             </div>
         </div>
     );

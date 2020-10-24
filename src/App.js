@@ -1,6 +1,8 @@
 import React from 'react';
 import classes from './App.css';
 
+import 'font-awesome/css/font-awesome.min.css'; 
+
 import Header from './components/UI/Header/Header';
 import Home from './components/Home/Home';
 import About from './components/About/About';
