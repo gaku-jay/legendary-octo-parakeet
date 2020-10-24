@@ -1,3 +1,29 @@
 .About {
-    
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 5% 0 5%;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 20%;
+}
+
+.ContentSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.AboutDetail {
+    padding-left: 5%;
+}
+
+.ImgSection {
+    margin: 10% 0 0 0;
+}
+
+.AboutContent h2{
 }
