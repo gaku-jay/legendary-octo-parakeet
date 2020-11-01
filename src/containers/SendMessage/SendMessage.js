@@ -13,7 +13,7 @@ class SendMessage extends React.Component {
         }
     }
 
-    render(){
+    render() {
         return(
             <div>
                 <ContactForm />

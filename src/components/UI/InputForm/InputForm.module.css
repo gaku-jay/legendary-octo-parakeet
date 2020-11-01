@@ -1,0 +1,28 @@
+.InputForm {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: solid silver 0.5px;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+.InputForm input {
+    align-items: center;
+    height: 100%;
+}
+
+label {
+    position: absolute;
+    top: .4rem;
+    cursor: text;
+    transition: all .15s;
+    background-color: white;
+    margin: 0 .25rem 0 0.5rem;
+    color: silver;
+}
+
+.Focused { 
+    transform: translateX(0px) translateY(-1rem) scale(.8);
+    color: #1B74E8;
+}
